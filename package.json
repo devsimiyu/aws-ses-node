@@ -1,0 +1,16 @@
+{
+  "name": "aws-ses-node",
+  "version": "1.0.0",
+  "description": "mail notification using aws ses and nodejs",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon app.js"
+  },
+  "author": "thejitu",
+  "license": "MIT",
+  "dependencies": {
+    "@aws-sdk/client-ses": "^3.99.0",
+    "@aws-sdk/credential-provider-node": "^3.99.0",
+    "dotenv": "^16.0.1"
+  }
+}

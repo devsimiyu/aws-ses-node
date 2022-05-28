@@ -1,0 +1,7 @@
+**/.terraform
+**/*.hcl
+**/*.tfstate
+**/*.backup
+
+node_modules
+.env
